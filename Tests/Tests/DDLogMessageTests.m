@@ -1,6 +1,6 @@
 // Software License Agreement (BSD License)
 //
-// Copyright (c) 2014-2015, Deusty, LLC
+// Copyright (c) 2014-2016, Deusty, LLC
 // All rights reserved.
 //
 // Redistribution and use of this software in source and binary forms,
@@ -17,7 +17,7 @@
 //
 
 @import XCTest;
-#import <Expecta.h>
+#import <Expecta/Expecta.h>
 #import "DDLog.h"
 
 static NSString * const kDefaultMessage = @"Log message";

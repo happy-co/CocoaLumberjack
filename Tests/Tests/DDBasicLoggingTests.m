@@ -1,6 +1,6 @@
 // Software License Agreement (BSD License)
 //
-// Copyright (c) 2014-2015, Deusty, LLC
+// Copyright (c) 2014-2016, Deusty, LLC
 // All rights reserved.
 //
 // Redistribution and use of this software in source and binary forms,
@@ -15,9 +15,9 @@
 
 
 @import XCTest;
-#import <CocoaLumberjack.h>
-#import <OCMock.h>
-#import <Expecta.h>
+#import "CocoaLumberjack.h"
+#import <OCMock/OCMock.h>
+#import <Expecta/Expecta.h>
 
 
 const NSTimeInterval kAsyncExpectationTimeout = 3.0f;
@@ -52,8 +52,7 @@ DDLogLevel ddLogLevel = DDLogLevelVerbose;
             
             strongSelf.noOfMessagesLogged++;
             
-            // NOTE: this method is called twice for every log (the second time if for getting the obj param)
-            if (strongSelf.noOfMessagesLogged == 2 * [strongSelf.logs count]) {
+            if (strongSelf.noOfMessagesLogged == [strongSelf.logs count]) {
                 [self.expectation fulfill];
             }
             
