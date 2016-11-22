@@ -21,11 +21,11 @@
 		18F3BF951A81DF5600692297 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20CF192A0E0000AB7171 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18F3BF961A81DF5600692297 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F3BF151A81D9A400692297 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18F3BF971A81DF5600692297 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20C3192A0E0000AB7171 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18F3BF991A81DF5600692297 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20C6192A0E0000AB7171 /* DDLog.m */; };
+		18F3BF991A81DF5600692297 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20C6192A0E0000AB7171 /* DDLog.m */; settings = {COMPILER_FLAGS = "-Wno-objc-designated-initializers"; }; };
 		18F3BF9A1A81DF5600692297 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20C0192A0E0000AB7171 /* DDASLLogCapture.m */; };
 		18F3BF9B1A81DF5600692297 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20CC192A0E0000AB7171 /* DDContextFilterLogFormatter.m */; };
 		18F3BF9C1A81DF5600692297 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20CE192A0E0000AB7171 /* DDDispatchQueueLogFormatter.m */; };
-		18F3BF9D1A81DF5600692297 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20C4192A0E0000AB7171 /* DDFileLogger.m */; };
+		18F3BF9D1A81DF5600692297 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20C4192A0E0000AB7171 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-Wno-objc-designated-initializers"; }; };
 		18F3BF9E1A81DF5600692297 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20C9192A0E0000AB7171 /* DDTTYLogger.m */; };
 		18F3BF9F1A81DF5600692297 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20D0192A0E0000AB7171 /* DDMultiFormatter.m */; };
 		18F3BFA01A81DF5600692297 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20BE192A0E0000AB7171 /* DDAbstractDatabaseLogger.m */; };
