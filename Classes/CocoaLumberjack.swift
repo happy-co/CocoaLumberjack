@@ -22,7 +22,7 @@ extension DDLogFlag {
     }
 	
 	public init(_ logLevel: DDLogLevel) {
-		self = DDLogFlag(logLevel)
+        self = DDLogFlag(rawValue: logLevel.rawValue)
 	}
     
     ///returns the log level, or the lowest equivalant.
